@@ -1,0 +1,40 @@
+/* LOGO FONT */
+@font-face {
+    font-family: 'rezregular';
+    src: url('fonts/rezland/rez-webfont.eot');
+    src: url('fonts/rezland/rez-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/rezland/rez-webfont.woff') format('woff'),
+         url('fonts/rezland/rez-webfont.ttf') format('truetype'),
+         url('fonts/rezland/rez-webfont.svg#rezregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header{
+    background-color: black;
+}
+
+#logo{
+    font-size: 300%;
+    color: white;
+    font-family: rezregular, Roboto;
+    font-weight: normal;
+}
+
+header .heading{
+    font-size: 600%;
+    line-height: 60px;
+}
+
+header a thin{
+    font-size: 130%;
+    line-height: 30px;
+}
+header span{
+    font-size: 150%;
+}
+
+header .center{
+    color: white;
+}
