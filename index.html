@@ -20,54 +20,53 @@
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="xtyle/js/xtyle.min.js"></script>
+  <style>
+    .container{
+      position: absolute; top: 50%; margin-top: -110px; left: 50%; margin-left: -340px;
+    }
+    .heading{
+      font-size: 900% !important; margin-bottom: 20px;
+    }
+    .container span{
+      font-size: 180%;
+    }
+    @media screen and (max-width: 600px) {
+      .container{
+        position: relative;
+        margin: 0;
+        top: 0;
+        left: 0;
+        padding: 20px;
+      }
+      .container .heading{
+        margin-top: 20px;
+        font-size: 450% !important;
+        margin-bottom: 0px !important;
+      }
+      .container span{
+        font-size: 120% !important;
+      }
+      .container a.btn{
+        font-size: 100%!important;
+        padding: 10px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-  <header>
+  <header style="height: 100%">
     <div class="layout-fixed-center">
       <h1 id="logo" class="margin-none padding2x">xchema</h1>
       
-      <div class="center" style="padding-top: 50px; padding-bottom: 100px;">
-        <thin class="heading display-block padding">We are working...</thin>
-        <span class="display-block padding margin-bottom"><thin>Creating web applications will never be the same.</thin></span>
+      <div class="center container">
+        <thin class="heading display-block padding">Frontend</thin>
+        <span class="display-block padding margin-bottom"><thin>Help us bringing the future of web development to your hands.</thin></span>
+        <a href="http://www.kickstarter.com/projects/emoriz/frontend-the-web-visual-editor" target="_blank" class="btn red medium"><thin>Kickstarter Campaign</thin></a> 
       </div>
     </div>
   </header>
 
-  <div class="layout-fixed-center">
-
-    <div id="content" class="grid">
-      <div class="grid2">
-        <div>
-          <h1><thin>xtyle</thin></h1>
-          <br>
-          <p>
-            Xtyle is our little web framework designed to facilitate the development of web sites and applications.
-          </p>
-          <a href="http://xtyle.xchema.com" class="btn success medium"><thin>Visit website</thin></a>
-        </div>
-      </div>
-      <div class="grid2">
-        <div>
-          <h1><thin>frontend <span style="font-size: 60%">(Coming Soon)</span></thin></h1>
-          <br>
-          <p>
-            Xchema frontend is a Photoshop replacement for creating web applications. Frontend uses an exclusive drang-and-drop component based module to create amazing responsive web applications.
-          </p>
-          <a href="https://vimeo.com/77396661" target="_blank" class="btn info medium"><thin>Video Demo</thin></a> 
-        </div>
-      </div>
-      </div>
-    </div>
-
-  </div>
-
-  <footer class="center background-color margin-top2x" style="padding: 50px 0">
-    <h1><thin>Silicon Valley, CA</thin></h1>
-     599 Fairchild Dr. in Mountain View, CA, 94043
-    <br>
-    xchema HQ is located in the middle of the Silicon Valley community.
-  </footer>
 
 
 <!-- GOOGLE ANALYTICS -->
